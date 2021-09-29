@@ -1,9 +1,9 @@
-package dev.vp.lovelydi.blueprints
+package io.github.vp.lovelydi.blueprints
 
-import dev.vp.lovelydi.interfaces.CreateInstance
-import dev.vp.lovelydi.interfaces.Blueprint
-import dev.vp.lovelydi.interfaces.Container
-import dev.vp.lovelydi.interfaces.OnDispose
+import io.github.vp.lovelydi.interfaces.CreateInstance
+import io.github.vp.lovelydi.interfaces.Blueprint
+import io.github.vp.lovelydi.interfaces.Container
+import io.github.vp.lovelydi.interfaces.OnDispose
 
 /**
  * Factory blueprint.

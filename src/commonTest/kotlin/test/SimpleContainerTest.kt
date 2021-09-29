@@ -1,8 +1,8 @@
 package test
 
-import dev.vp.lovelydi.containers.simple.SimpleContainer
-import dev.vp.lovelydi.exceptions.DisposingException
-import dev.vp.lovelydi.interfaces.*
+import io.github.vp.lovelydi.containers.simple.SimpleContainer
+import io.github.vp.lovelydi.exceptions.DisposingException
+import io.github.vp.lovelydi.interfaces.*
 import fixtures.*
 import fixtures.StringHolder
 import fixtures.TestStringHolder

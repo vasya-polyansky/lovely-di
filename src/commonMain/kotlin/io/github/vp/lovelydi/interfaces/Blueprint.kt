@@ -1,4 +1,4 @@
-package dev.vp.lovelydi.interfaces
+package io.github.vp.lovelydi.interfaces
 
 /**
  * Simple synchronous blueprint defining how to create,

@@ -1,4 +1,4 @@
-package dev.vp.lovelydi.interfaces
+package io.github.vp.lovelydi.interfaces
 
 /**
  * framework.dev.vp.lovelydi.containers.Container to manage dev.vp.lovelydi.blueprints.

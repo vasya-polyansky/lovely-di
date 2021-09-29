@@ -1,8 +1,8 @@
-package dev.vp.lovelydi.containers.simple
+package io.github.vp.lovelydi.containers.simple
 
-import dev.vp.lovelydi.exceptions.DisposingException
-import dev.vp.lovelydi.interfaces.Blueprint
-import dev.vp.lovelydi.interfaces.Container
+import io.github.vp.lovelydi.exceptions.DisposingException
+import io.github.vp.lovelydi.interfaces.Blueprint
+import io.github.vp.lovelydi.interfaces.Container
 
 /**
  * Container to manage dev.vp.lovelydi.blueprints.

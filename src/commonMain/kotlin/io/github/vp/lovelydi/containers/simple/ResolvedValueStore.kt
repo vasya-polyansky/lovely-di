@@ -1,6 +1,6 @@
-package dev.vp.lovelydi.containers.simple
+package io.github.vp.lovelydi.containers.simple
 
-import dev.vp.lovelydi.interfaces.Blueprint
+import io.github.vp.lovelydi.interfaces.Blueprint
 
 /**
  *  Just a wrapper on [Map] to store blueprint values in an easier way.
