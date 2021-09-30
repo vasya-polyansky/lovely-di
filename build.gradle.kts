@@ -1,5 +1,5 @@
 plugins {
-    kotlin("multiplatform") version "1.5.10"
+    kotlin("multiplatform") version "1.5.31"
     id("maven-publish")
     id("signing")
     id("org.jetbrains.dokka") version "1.5.30"
@@ -59,7 +59,7 @@ kotlin {
 
 signing {
     useInMemoryPgpKeys(
-        System.getenv("GPG_PRIVATE_KEY").replace(" ", "\n"),
+        System.getenv("GPG_PRIVATE_KEY")?.replace(" ", "\n"),
         System.getenv("GPG_PRIVATE_PASSWORD"),
     )
     sign(publishing.publications)
