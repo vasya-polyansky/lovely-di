@@ -22,7 +22,7 @@ private class LazySingleton<T>(
     override fun createValue(scope: Container) = createInstance()
 }
 
-fun <T> lazySingleton(
+fun <T> single(
     onDispose: OnDispose<T>? = null,
     createInstance: CreateInstance<T>,
 ): Blueprint<T> = LazySingleton(
